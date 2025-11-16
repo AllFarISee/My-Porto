@@ -1,0 +1,177 @@
+/* Global Style */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+/* Offcanvas */
+.offcanvas {
+    border-right: 1px solid #555;
+}
+.navbar-brand img {
+  filter: invert(1);
+  color: white;
+}
+
+/* Header */
+.header {
+    background: #808080;
+    padding-top: 120px;
+    margin-bottom: -20px;
+    text-align: center;
+    color: white;
+}
+
+.header img {
+    border: 4px solid white;
+    transition: 0.4s ease;
+}
+
+.header img:hover {
+    transform: scale(1.05);
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Button Custom */
+.header .btn-dark {
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.header .btn-dark:hover {
+    background: #111;
+}
+
+svg {
+    display: block;
+    margin-bottom: -5px;
+}
+
+/* Experience */
+#Experience {
+    color: black;
+    margin: 0;
+    padding-bottom: 120px;
+    padding-top: 0 !important;
+    margin-top: -10px;
+}
+
+#Experience h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+#Experience .col {
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+#Experience .col:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    transform: translateY(-5px);
+}
+
+/* Certification */
+.project h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    border-left: 5px solid #fd0d0d;
+    padding-left: 10px;
+}
+
+/* About */
+.about-header {
+    padding-top: 120px;
+}
+
+.skills-section i {
+    transition: 0.3s;
+}
+
+.skills-section i:hover {
+    transform: scale(1.2);
+}
+
+
+/* Gallery */
+.gallery-header {
+    padding-top: 110px;
+}
+
+.gallery-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-card {
+    transition: 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    #Experience .col {
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header img {
+        width: 150px;
+        height: 150px;
+    }
+}
